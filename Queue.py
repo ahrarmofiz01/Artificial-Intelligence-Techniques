@@ -1,14 +1,11 @@
 class Queue:
-
     def __init__(self):
         self.queue = []
 
     def addq(self, v):
-        # add an element to the queue
         self.queue.append(v)
 
     def delq(self):
-        # remove an element from the queue
         v = None
 
         if not self.isempty():
